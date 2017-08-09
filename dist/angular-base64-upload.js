@@ -1,6 +1,6 @@
 /*! angular-base64-upload - v0.1.23
-* https://github.com/adonespitogo/angular-base64-upload
-* Copyright (c) Adones Pitogo <pitogo.adones@gmail.com> [Sat Aug 05 2017]
+* https://github.com/HakS/angular-base64-upload
+* Copyright (c) Juan Barba <juan.barba.o@gmail.com> [Wed Aug 09 2017]
 * Licensed MIT */
 (function(window, undefined) {
 
@@ -193,7 +193,7 @@
 
               if (attrs.onload) {
                 if (scope.onload && typeof scope.onload() === "function") {
-                  scope.onload()(e, fReader, file, rawFiles, fileObjects, fileObject);
+                  scope.onload()(e, fReader, file, rawFiles, fileObjects, fileObject, scope);
                 } else {
                   scope.onload(e, rawFiles);
                 }

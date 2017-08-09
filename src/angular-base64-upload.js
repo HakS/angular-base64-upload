@@ -189,7 +189,7 @@
 
               if (attrs.onload) {
                 if (scope.onload && typeof scope.onload() === "function") {
-                  scope.onload()(e, fReader, file, rawFiles, fileObjects, fileObject);
+                  scope.onload()(e, fReader, file, rawFiles, fileObjects, fileObject, scope);
                 } else {
                   scope.onload(e, rawFiles);
                 }

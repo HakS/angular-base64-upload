@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/adonespitogo/angular-base64-upload.git"
+    "url": "https://github.com/HakS/angular-base64-upload.git"
   },
   "keywords": [
     "angularjs",
@@ -38,12 +38,9 @@
     "input",
     "convert"
   ],
-  "author": "Adones Pitogo <pitogo.adones@gmail.com>",
+  "author": "Juan Barba <juan.barba.o@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/adonespitogo/angular-base64-upload/issues"
-  },
-  "homepage": "https://github.com/adonespitogo/angular-base64-upload",
+  "homepage": "https://github.com/HakS/angular-base64-upload",
   "engines": {
     "node": ">=4.0"
   }
